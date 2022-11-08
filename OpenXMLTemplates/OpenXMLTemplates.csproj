@@ -4,13 +4,13 @@
         <LangVersion>8</LangVersion>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>Word document templating using OpenXML SDK</Title>
-        <Authors>antonmmihaylov@gmail.com</Authors>
-        <Description>A .NET Standard Word documents templating system that doesn't need Word installed and is both designer and developer friendly</Description>
+        <Authors>antonmmihaylov@gmail.com,yaurfu@gmail.com</Authors>
+        <Description>A forked version of antonmmihaylov's OpenXMLTemplates</Description>
         <Copyright>
         </Copyright>
-        <PackageProjectUrl>https://github.com/antonmihaylov/OpenXmlTemplates</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/tlyau62/OpenXmlTemplates</PackageProjectUrl>
         <PackageLicenseUrl>https://github.com/antonmihaylov/OpenXmlTemplates/blob/master/LICENSE</PackageLicenseUrl>
-        <RepositoryUrl>https://github.com/antonmihaylov/OpenXmlTemplates</RepositoryUrl>
+        <RepositoryUrl>https://github.com/tlyau62/OpenXmlTemplates</RepositoryUrl>
         <RepositoryType>Git</RepositoryType>
         <PackageTags>Word Templates Automation Document OpenXML</PackageTags>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
@@ -22,6 +22,7 @@
         <OldToolsVersion>2.0</OldToolsVersion>
         <PackageVersion>2.0.4</PackageVersion>
         <Version>2.0.4</Version>
+        <PackageId>$(AssemblyName)Forked</PackageId>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="DocumentFormat.OpenXml" Version="2.7.1" />
